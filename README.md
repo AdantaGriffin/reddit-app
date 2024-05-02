@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+README
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+* 		Project Title: the name of your project
+* 		Description: This is an extremely important component of the README. You should describe the main purpose of your project. Answer questions like “why did you build this project?” and “what problem(s) does it solve?”. It also helps to include your motivations for the project and what you learned from it.
+* 		Features: If your project has multiple features, list them here. Don’t be afraid to brag if your project has unique features that make it stand out. You can even add screenshots and gifs to show off the features.
+* 		How to use: Here, you should write step-by-step instructions on how to install and use your project. Any software or package requirements should also be listed here.
+* 		Technologies: List all the technologies and/or frameworks you used and what purpose they serve in your project.
+* 		Collaborators: If others have contributed to your project in any way, it is important to give them credit for their work. Write your team members’ or collaborators’ names here along with a link to their GitHub profile.
+* 		License: It’s also important to list a license on your README so other developers can understand what they can and cannot do with your project. You can use this guide to help you choose a license.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# RedditApp
+Code Academy: Reddit App Challenge Project
+## Overview
+React and Redux. Reddit is a website where people share links to articles, media and other things on the web. The Reddit API provides data which you will integrate into your application. The application will allow users to view and search posts and comments provided by the API.
+---
+## Project Requirements:
+- Build the application using React and Redux
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Version control your application with Git and host the repository on GitHub
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Use a project management tool (GitHub Projects, Trello, etc.) to plan your work
 
-### `npm run eject`
+- Write a README (using Markdown) that documents your project including:
+   - Wireframes
+   - Technologies used
+   - Features
+   - Future work
+- Write unit tests for your components using Jest and Enzyme
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Write end-to-end tests for your application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Users can use the application on any device (desktop to mobile)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Users can use the application on any modern browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Users can access your application at a URL
 
-## Learn More
+- Users see an initial view of the data when first visiting the app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Users can search the data using terms
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Users can filter the data based on categories that are predefined
 
-### Code Splitting
+- Users are shown a detailed view (modal or new page/route) when they select an item
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Users are delighted with a cohesive design system
 
-### Analyzing the Bundle Size
+- Users are delighted with animations and transitions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Users are able to leave an error state
 
-### Making a Progressive Web App
+- Get 90+ scores on Lighthouse
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   - We understand you cannot control how media assets like videos and images are sent to the client. It is okay to have a score below 90 for Performance if they are related to the media from Reddit.
+- OPTIONAL: Get a custom domain name and use it for your application
 
-### Advanced Configuration
+- OPTIONAL: Set up a CI/CD workflow to automatically deploy your application when the master branch in the repository changes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- OPTIONAL: Make your application a progressive web app
+---
+## Prerequisites:
+- HTML
+- CSS
+- JavaScript
+- React
+- Redux
+- Jest and Selenium
+- Git and GitHub
+- Command line and file navigation
+- Wireframing
+---
+## Clone Project: 
+---
+## Steps:
+### Wireframe your application
+<a href="https://www.figma.com/file/s1TfZf6CyCZPre2Rf91fk3/Untitled?type=design&node-id=0-1&mode=design&t=Gd2quF5WdpKuV575-0">Wireframe</a>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

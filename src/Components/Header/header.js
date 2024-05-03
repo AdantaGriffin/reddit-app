@@ -1,11 +1,26 @@
 import React from 'react';
+import './header.css';
+import SearchBar from '../Searchbar/searchbar';
 
-function header() {
+function Header() {
     return(
-        <header>
-            <div classsName='logo-title'></div>
-            <SearchBar />
-            <img alt='search-icon' />
+        <header className='header-container'>
+
+            <div className='logo'>
+                <img alt='' className='image-logo' src='reddit-logo.png' width='30px' height='30px'/>
+                <h1 className='title'><span className='span-orange'>Reddit</span>Minimal</h1>
+            </div>
+
+            <div>
+                <SearchBar />
+            </div>
+
+            <div>
+                { /** empty space **/ }
+            </div>
+
         </header>
     )
-}
+};
+
+export default Header;

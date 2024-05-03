@@ -1,0 +1,23 @@
+.header-container{
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    box-shadow:  0 10px 15px -3px rgba(0,0,0,0.1);
+    padding-bottom: 5px;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    margin: 10px 0 0 40px;
+    
+}
+.image-logo{
+    margin: 8px 0 0 5px;
+}
+.title{
+    font-size: 1.15em;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.span-orange{
+    color: rgb(255, 80, 0);
+}

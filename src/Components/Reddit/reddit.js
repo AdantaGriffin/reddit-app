@@ -1,25 +1,38 @@
 import React from 'react';
+import './reddit.css';
 
 function Reddit() {
     return (
-        <section>
+        <article className='reddit-card'>
 
-            <div className='top-card'> 
-                <div>likes</div>
-                <div>heading</div>
+            <div className='col-one'> 
+                <button className='like-buttons'>
+                    <img className='button-image' src='thumbs-up.png' width='50px'/>
+                </button>
+                <p>count</p>
+                <button className='like-buttons'>
+                    <img className='button-image' src='thumbs-down.png' width='50px'/>
+                </button>
             </div>
 
-            <div className='middle-card'>
-                img rendered
+            <div className='col-two'>
+                <div>
+                    <h2 className='reddit-title'>Reddits</h2>
+                </div>
+                <div>
+                    <figure>
+                        <img className='figure-image' alt='' height='300px' width='300px'/>
+                        <hr/>
+                        <figcaption>
+                            <p>profile</p>
+                            <p>hrs ago</p>
+                            <p>comments</p>
+                        </figcaption>
+                    </figure>
+                </div>
             </div>
 
-            <div className='bottom-card'>
-                <div>profile</div>
-                <div>time ago</div>
-                <div>comments</div>
-            </div>
-
-        </section>
+        </article>
     )
 };
 

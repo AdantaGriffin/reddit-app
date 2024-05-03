@@ -1,0 +1,27 @@
+.reddit-card{
+    box-shadow:  0 10px 15px -3px rgba(0,0,0,0.1);
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding-bottom: 20px;
+}
+.col-one{
+    margin: 0 auto;
+}
+.like-buttons{
+    border: none;
+}
+.col-two{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+}
+.reddit-title{
+    color: rgb(75, 73, 73);
+}
+.figure-image{
+    border: 1px solid blue;
+}
+figcaption{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,11 @@
+.reddit-container{
+    box-shadow:  0 10px 15px -3px rgba(0,0,0,0.1);
+    width: 40%;
+    float: right;
+    height: 800px;
+    margin-top: 30px;
+}
+.subreddits-list{
+    margin-left: 30px;
+    color: rgb(75, 73, 73);
+}

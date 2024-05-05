@@ -1,11 +1,10 @@
 import React from 'react';
 import './reddits.css';
-import Reddit from '../Reddit/reddit';
-
-function Reddits() {
+import RedditsList from '../RedditsList/redditsList';
+function Reddits(props) {
     return (
         <section className='reddit-container'>
-            <Reddit />
+            <RedditsList userSearchResult={props.userSearchResult} userSubSearch={props.userSubSearch}/>
         </section>
     )
 };

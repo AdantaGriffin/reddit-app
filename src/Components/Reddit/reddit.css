@@ -18,8 +18,12 @@
 .reddit-title{
     color: rgb(75, 73, 73);
 }
-.figure-image{
-    border: 1px solid blue;
+.img-container{
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    margin: auto;
+    margin-bottom: 30px;
 }
 figcaption{
     display: flex;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './reddit.css';
 
-function Reddit() {
+function Reddit(props) {
     return (
         <article className='reddit-card'>
 
@@ -17,16 +17,18 @@ function Reddit() {
 
             <div className='col-two'>
                 <div>
-                    <h2 className='reddit-title'>Reddits</h2>
+                    <h2 className='reddit-title'>{props.reddit.title}</h2>
                 </div>
                 <div>
                     <figure>
-                        <img className='figure-image' alt='' height='300px' width='300px'/>
+                        <div className='img-container'>
+                            {props.reddit.img}
+                        </div>
                         <hr/>
                         <figcaption>
-                            <p>profile</p>
-                            <p>hrs ago</p>
-                            <p>comments</p>
+                            <p>{props.reddit.id}</p>
+                            <p>{props.reddit.time}</p>
+                            <p>{props.reddit.comments}</p>
                         </figcaption>
                     </figure>
                 </div>
